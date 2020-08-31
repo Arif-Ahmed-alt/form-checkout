@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Checkout form</title>
+
+    <style>
+
+        .card{
+            width: 50%;
+            margin: 3rem auto;
+        }
+   @media screen and (max-width: 500px) {
+    .card {
+    width:90%;
+    }
+}
+
+    </style>
+ 
+</head>
+<body> 
+
+    <div class="card bg-dark text-light">
+        <div class="card-body">
+            <h1 class="text-center lead">Checkout form</h1>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="email">
+                  <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="password">
+                  <small id="passHelp" class="form-text text-light">We'll never share your password with anyone else.</small>
+                </div>
+              
+                <button type="submit"  class="btn btn-success">Login</button>
+              </form>
+        </div>
+      </div>
+
+      
+   <script src="script.js"></script>
+   
+</body>
+</html>
